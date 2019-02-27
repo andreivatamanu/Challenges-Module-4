@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_16_dp"
+        android:layout_marginBottom="@dimen/space_16_dp"
+        android:background="@color/colorPrimary"
+        android:onClick="challenge1"
+        android:padding="@dimen/space_8_dp"
+        android:text="@string/challenge_1"
+        android:textColor="@color/white_color" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_16_dp"
+        android:background="@color/colorPrimary"
+        android:onClick="challenge2"
+        android:padding="@dimen/space_8_dp"
+        android:text="@string/challenge_2"
+        android:textColor="@color/white_color" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_16_dp"
+        android:background="@color/colorPrimary"
+        android:onClick="challenge3"
+        android:padding="@dimen/space_8_dp"
+        android:text="Challenge 3"
+        android:textColor="@color/white_color" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_16_dp"
+        android:background="@color/colorPrimary"
+        android:onClick="challenge4"
+        android:padding="@dimen/space_8_dp"
+        android:text="@string/challenge_4"
+        android:textColor="@color/white_color" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_16_dp"
+        android:background="@color/colorPrimary"
+        android:onClick="challenge5"
+        android:padding="@dimen/space_8_dp"
+        android:text="@string/extra_challenge"
+        android:textColor="@color/white_color" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_16_dp"
+        android:background="@color/colorPrimary"
+        android:onClick="challenge5"
+        android:padding="@dimen/space_8_dp"
+        android:text="@string/extra_challenge"
+        android:textColor="@color/white_color" />
+
+
+</LinearLayout>
